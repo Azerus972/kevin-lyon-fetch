@@ -1,0 +1,22 @@
+{
+  "name": "kevin-lyon-fetch",
+  "version": "0.0.1",
+  "description": "first npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinMarous/kevin-lyon-fetch.git"
+  },
+  "keywords": [
+    "v0.0.1"
+  ],
+  "author": "azerus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinMarous/kevin-lyon-fetch/issues"
+  },
+  "homepage": "https://github.com/KevinMarous/kevin-lyon-fetch#readme"
+}
