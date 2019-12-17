@@ -1,6 +1,6 @@
 {
     "name": "kevin-lyon-fetch",
-    "version": "0.0.5",
+    "version": "0.1.0",
     "description": "first npm module",
     "main": "index.js",
     "scripts": {
@@ -11,7 +11,10 @@
         "url": "git+https://github.com/KevinMarous/kevin-lyon-fetch.git"
     },
     "keywords": [
-        "v0.0.1"
+        "v0.1.0",
+        "npm-package",
+        "start-npm",
+        "npm"
     ],
     "author": "azerus",
     "license": "ISC",
