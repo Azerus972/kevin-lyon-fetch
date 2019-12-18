@@ -18,6 +18,7 @@ function fetch(url) {
     });
 }
 module.exports = fetch;
+//This is the called api
 fetch("https://dog.ceo/api/breeds/list/all").then(function(response) {
     console.log(response)
 }).catch(function(error) {
