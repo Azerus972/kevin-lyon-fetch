@@ -4,7 +4,7 @@
 
 Inside the project you will find an index.js, test.js and and json package ( due to the npm init).
 
-#How did i made that module ?
+#Ok So...and how to process now  ?
 
 First create a new repo on github and clone it on your computer.
 
