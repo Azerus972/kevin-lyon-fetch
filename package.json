@@ -1,10 +1,10 @@
 {
     "name": "kevin-lyon-fetch",
-    "version": "0.3.1",
+    "version": "0.3.3",
     "description": "Axio api npm module",
     "main": "index.js",
     "scripts": {
-        "test": "node.test.js"
+        "test": "test.js"
     },
     "repository": {
         "type": "git",
