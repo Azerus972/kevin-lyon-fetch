@@ -1,26 +1,18 @@
 "use strict";
 
-function fetch(url) {
-    return new Promise(function(ok, ko) {
-        let xhr = new XMLHttpRequest();
-        xhr.open("GET", url);
-        xhr.onload = function() {
-            if (xhr.status == 200) {
-                ok(xhr.response);
-            } else {
-                ko(xhr.status)
-            }
-        };
-        xhr.onerror = function(error) {
-            ko(error);
-        }
-        xhr.send();
-    });
-}
-module.exports = fetch;
-//This is the called api
-fetch("https://dog.ceo/api/breeds/list/all").then(function(response) {
-    console.log(response)
-}).catch(function(error) {
-    console.error(error);
-});
+const axios = require('axios');
+
+// Make a request for a api with a given URL
+axios.get('https://dog.ceo/api/breeds/list/all')
+  .then(function (response) {
+    // handle success
+    console.log(response);
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+  });
+
