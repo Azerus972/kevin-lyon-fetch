@@ -16,6 +16,8 @@ Easy right ? now open your terminal in the folder you've just cloned and tape "n
 
 Choose a project name and press enter, same to the version of your module ( keep 0.0.1 'cause when you gonna patch it the last version number will be increment ) take some tags a description.
 
+Change the api requested in the index.js file !
+
 # Fine folk's but did we also finished ?
 
 Buddy it depend of you and the librairy where you wanna work with... you are the developer of that app so you are the only one who know that ;)

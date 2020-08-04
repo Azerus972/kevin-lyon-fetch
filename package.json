@@ -1,6 +1,6 @@
 {
-    "name": "azerus-fetch",
-    "version": "0.3.0",
+    "name": "kevin-lyon-fetch",
+    "version": "0.3.1",
     "description": "Axio api npm module",
     "main": "index.js",
     "scripts": {
