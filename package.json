@@ -24,5 +24,8 @@
     "bugs": {
         "url": "https://github.com/KevinMarous/kevin-lyon-fetch/issues"
     },
-    "homepage": "https://github.com/KevinMarous/kevin-lyon-fetch#readme"
+    "homepage": "https://github.com/KevinMarous/kevin-lyon-fetch#readme",
+    "dependencies": {
+        "axios": "^0.19.2"
+    }
 }
